@@ -30,3 +30,7 @@ Note: if you encounter a “permission denied message here, please use the follo
 `chmod +x ./mongoseed.sh`
 
 5. Wait until the importation is done and then head to http://localhost:8085/.
+
+6. In order to run the queries, we must connect to our database first using the command: 
+mongo --host mongo --port 27017 --username root --password root --authenticationDatabase=admin
+
